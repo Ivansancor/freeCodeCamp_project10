@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    background-color: #afffe3;
+    margin: 2rem;
+}
+
+section {
+    margin: 2rem;
+}
+
+#description h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#description p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+#description figure {
+    background-color: darkgreen;
+    padding: 2rem;
+    width: 120%;
+    margin-left: -10%;
+}
+
+#description figcaption {
+    margin: 1rem auto 0;
+    width: 80%;
+    color: white;
+}
+
+#description img {
+    width: 80%;
+    object-fit: cover;
+}
+
+#bio h2 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+#bio ul {
+    text-align: justify;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#bio ul li {
+    margin-bottom: 1rem;
+    line-height: 1.3rem;
+}
+
+#bio ul li:last-of-type {
+    margin-bottom: unset;
+}
+
+.year {
+    font-weight: 600;
+}
+
+blockquote {
+    width: 50%;
+    font-style: italic;
+    margin: 0 auto 2rem;
+    text-align: left;
+}
+
+blockquote span {
+    margin-top: 1rem;
+    display: block;
+}
+
+#more h2 {
+    width: 80%;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+#more a {
+    color: black;
+}
+
+#more a:hover {
+    color: darkgreen;
+}
